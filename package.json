@@ -1,6 +1,6 @@
 {
   "name": "puppeteer-lottie-cli",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "CLI for rendering Lottie animations via Puppeteer to image, GIF, or MP4.",
   "main": "index.js",
   "repository": "transitive-bullshit/puppeteer-lottie-cli",
@@ -33,13 +33,14 @@
     "cli"
   ],
   "devDependencies": {
-    "ava": "^1.4.1",
+    "ava": "^4.0.1",
     "execa": "^1.0.0",
-    "standard": "^12.0.1",
+    "standard": "^16.0.4",
     "update-markdown-usage": "^1.0.7"
   },
   "dependencies": {
     "commander": "^4.1.1",
-    "puppeteer-lottie": "^1.0.9"
+    "npm-pack-all": "^1.10.7",
+    "puppeteer-lottie": "../../rotorvideos/puppeteer-lottie/"
   }
 }
